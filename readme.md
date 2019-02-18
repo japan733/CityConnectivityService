@@ -4,7 +4,7 @@ By [Japan Trivedi](mailto:japan.trivedi@hotmail.com)
 
 [Japan Trivedi - Stackoverflow Profile](https://stackoverflow.com/users/story/944108)
 
-[Japan Trivedi - LinkedIn Profile](www.linkedin.com/in/japantrivedi)
+[Japan Trivedi - LinkedIn Profile](https://www.linkedin.com/in/japantrivedi)
 
 ## Instructions
 
