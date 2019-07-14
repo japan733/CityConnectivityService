@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -25,7 +26,11 @@ public class CityConnectivityController {
 	public String checkConnectivity(@RequestParam String origin, @RequestParam String destination) {
 		return connectivityService.isConnected(origin, destination) ? CityConnectivityConstant.CITY_CONNECTED_YES : CityConnectivityConstant.CITY_CONNECTED_NO;
 	}
-
+	
+	/*
+	 * @GetMapping(path="/getAllConnected") public @ResponseBody City
+	 */
+	
 	@PostMapping(path="/addConnectivity")
 	public ResponseEntity<String> addConnectivity(@RequestBody AddConnectivityRequest addConnectivityRequest) {
 		ResponseEntity<String> response;

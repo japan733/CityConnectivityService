@@ -21,6 +21,7 @@ public class CityConnectivityServiceApplication implements WebMvcConfigurer{
 		//Configuration to allow static content of swagger UI
 		registry.addResourceHandler("swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/");
 		registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
+		registry.addResourceHandler("classpath:/BOOT-INF/classes/files");
 	}
 }
 
